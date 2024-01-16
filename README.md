@@ -15,6 +15,8 @@ edit "set_env_example.sh"
 
 `source set_env_example.sh`
 
+`mkdir file_cache`
+
 `./fsa_inthecloud.py`
 
 
