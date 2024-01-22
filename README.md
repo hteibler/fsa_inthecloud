@@ -8,6 +8,8 @@ use "lambda_examply.py"
 
 
  ## how to run 
+
+ clone git
  
 `pip3 install -r requirements.txt`
 
@@ -19,7 +21,7 @@ edit "set_env_example.sh"
 
 `./fsa_inthecloud.py`
 
-
+or run it in TMUX
 
 
 
