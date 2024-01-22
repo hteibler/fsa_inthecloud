@@ -206,6 +206,8 @@ class FSA:
 
         response = requests.post(self.host, data=multipart_file_post_body, headers={'Content-Type': multipart_file_post_body.content_type}, verify=False)
 
+        # delete file
+        os.remove(filePath) 
 
         r=json.loads(response.text)
         color=Fore.WHITE
